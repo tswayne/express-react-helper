@@ -15,6 +15,7 @@ Express React Helper sets up [React Helper](https://github.com/tswayne/react-hel
 
 **In the Controller**
 
+_req.renderComponent will make the rendered component accessible in the view by the component's name_ 
 ```javascript
   function(req, res) {
     req.renderComponent('SignUp')
@@ -46,6 +47,7 @@ _This is compiled by webpack and what tells the browser to render the react comp
 * Context - Add data to context to be available in every react component rendered with ReactHelper
   * This can be a helpful way to pass server side configs to your react components, login state, or any other props multiple components will need that you don't feel like added to every controllers renderComponent. 
   
+  
   _You can add to context like this:_
   
   **Wherever your middleware is setup**
@@ -64,6 +66,8 @@ _This is compiled by webpack and what tells the browser to render the react comp
 
 ## Example
 Check out an example app generated with the react-helper cli using the library - https://github.com/tswayne/react-helper-example.
+
+You can see how express-react-helper is setup [here](https://github.com/tswayne/react-helper-example/blob/master/index.js#L13) and usage in a controller [here](https://github.com/tswayne/react-helper-example/blob/master/src/controllers/ExpressReactHelperExampleController.js).
 
  
 ## Contributing
