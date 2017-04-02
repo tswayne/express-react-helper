@@ -15,9 +15,11 @@ Express React Helper sets up [React Helper](https://github.com/tswayne/react-hel
 
 **In the Controller**
 
-```javascript   
-   req.renderComponent('SignUp')
-   res.render('view-to-render')
+```javascript
+  function(req, res) {
+    req.renderComponent('SignUp')
+    res.render('view-to-render')
+  }
 ```
 
 **In the View**: _example using handlebars templating engine_
