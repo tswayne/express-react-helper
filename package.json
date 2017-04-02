@@ -1,0 +1,33 @@
+{
+  "name": "express-react-helper",
+  "version": "1.0.0",
+  "description": "Middleware to easily add react to your express app using react-helper.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tswayne/express-react-helper"
+  },
+  "keywords": [
+    "express",
+    "react",
+    "sails",
+    "mvc",
+    "react-helper"
+  ],
+  "author": {
+    "name": "Tyler Swayne",
+    "email": "swaynetyler@gmail.com",
+    "url": "https://github.com/tswayne"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tswayne/express-react-helper/issues"
+  },
+  "homepage": "https://github.com/tswayne/express-react-helper#readme",
+  "dependencies": {
+    "react-helper": "^2.0.5"
+  }
+}
