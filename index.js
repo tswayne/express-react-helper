@@ -3,11 +3,13 @@ var ReactHelper = require('react-helper');
 module.exports.setup = function() {
   return function(req, res, next) {
     req.reactHelperContext = {};
-    req.renderComponent = (componentName, props) => {
-      if (!props) {props = {};}
+    req.renderComponent = function(componentName, props) {
+      if (!props) {
+        props = {};
+      }
       props.reactHelperContext = req.reactHelperContext;
       res.locals[componentName] = ReactHelper.renderComponent(componentName, props);
-    }
+    };
     next();
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "express-react-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware to easily add react to your express app using react-helper.",
   "main": "index.js",
   "scripts": {
