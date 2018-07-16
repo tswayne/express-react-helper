@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/tswayne/express-react-helper#readme",
   "dependencies": {
-    "react-helper": "^2.0.5"
+    "react-helper": "^3.0.0"
   }
 }
